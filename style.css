@@ -1,0 +1,23 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1f1e1e;
+      color: #fff;
+    }
+    a:link {
+        color: aqua;
+    }
+    a:visited {
+        color: aquamarine;
+    }
+}
+
+.lists {
+    margin-left: 1%;
+}
